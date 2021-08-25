@@ -8,14 +8,18 @@ resto = a % b
 
 #-------print--------#
 
-print(type(soma))
 print('soma: ' + str (soma))
 print(subtracao)
 print(multiplicacao)
-print(divisao)
+print(int(divisao))
 print(resto)
 #soma = str (soma)
 #print (type(soma))
+#print(type(soma))
 
 #-------print--------#
+
+x = '2'
+soma2 =  int(x) + 3
+print(soma2)
 
