@@ -1,5 +1,6 @@
-a = 20
-b = 5
+a = int (input('Primeiro valor:'))
+b = int (input('Segundo valor:'))
+#print (type(a))
 soma = a + b
 subtracao = a - b
 multiplicacao = a * b
@@ -7,19 +8,17 @@ divisao = a / b
 resto = a % b
 
 #-------print--------#
+resultado = ('\nSoma: {} '
+       '\nSubtração: {}'
+       '\nMultiplicação: {} '
+       '\nDivisão: {} '
+       '\nResto: {} '.format (soma, subtracao, multiplicacao, divisao, resto))
 
-print('soma: ' + str (soma))
-print(subtracao)
-print(multiplicacao)
-print(int(divisao))
-print(resto)
-#soma = str (soma)
-#print (type(soma))
-#print(type(soma))
+print (resultado)       
 
 #-------print--------#
 
-x = '2'
-soma2 =  int(x) + 3
-print(soma2)
+#x = '2'
+#soma2 =  int(x) + 3
+#print(soma2)
 
